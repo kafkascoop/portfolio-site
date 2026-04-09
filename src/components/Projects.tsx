@@ -58,7 +58,7 @@ export function Projects() {
   return (
     <section id="projects" className="py-24 relative bg-background border-t border-border overflow-hidden">
       <div className="container px-4 md:px-6 mx-auto">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
@@ -73,7 +73,7 @@ export function Projects() {
 
         <div className="space-y-24">
           {projects.map((project, idx) => (
-            <motion.div 
+            <motion.div
               key={idx}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
