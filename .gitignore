@@ -41,5 +41,5 @@ yarn-error.log*
 next-env.d.ts
 
 # AI agent config files
-agents.md
-claude.md
+AGENTS.md
+CLAUDE.md
